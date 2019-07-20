@@ -10,20 +10,19 @@
   background-color: #1c5ee2;
   display: flex;
   flex-direction: row;
-  align-items: left;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  justify-content: left;
+  font-size: 24px;
 }
-
+.App-header ul {
+  list-style: none;
+  margin: 12px;
+  color: white;
+}
+.App-header a {
+  text-decoration: none;
+  color: white;
+}
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
