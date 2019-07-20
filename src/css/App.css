@@ -13,6 +13,8 @@
   align-items: center;
   justify-content: space-between;
   font-size: 24px;
+  height: 60px;
+  border-bottom: 3px solid #0049db;
 }
 .App-header ul {
   list-style: none;
@@ -22,6 +24,15 @@
 .App-header a {
   text-decoration: none;
   color: white;
+}
+.App-header button {
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: white;
+
+  font-size: 24px;
+  padding: 0;
 }
 .App-link {
   color: #61dafb;
