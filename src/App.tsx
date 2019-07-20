@@ -18,7 +18,7 @@ class App extends React.Component<any,AppState> {
     return (
       <>
         <Router>
-          <NavBar/>
+          <NavBar user={this.state.user}/>
           <Route path="/" exact={true} component={Home}/>
           <Route path="/game" component={Game}/>
         </Router>
