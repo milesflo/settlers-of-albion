@@ -23,7 +23,8 @@
     "src"
   ],
   "typeRoots": [
-    "./node_modules/phaser/types"
+    "./node_modules/phaser/types",
+    "./src/typings"
   ],
   "types": [
       "Phaser"

@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "settlers-of-albion",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,11 +10,13 @@
     "phaser": "^3.18.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "typescript": "3.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "nodemon",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -33,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^4.3.4",
+    "nodemon": "^1.19.1"
   }
 }

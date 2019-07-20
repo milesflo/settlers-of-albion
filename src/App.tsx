@@ -1,26 +1,28 @@
 import React from 'react';
 import './css/App.css';
+import Game from './views/Game';
+import Home from './views/Home';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
 
-class App extends React.Component<any,any> {
-  state = {}
+interface AppState {
+  user?: Player;
+}
+
+class App extends React.Component<any,AppState> {
+  state = {
+    user: {} as Player
+  }
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <>
+        <NavBar/>
+        <Router>
+          <Route path="/" exact={true} component={Home}/>
+          <Route path="/game" component={Game}/>
+        </Router>
+      </>
     );
 
   }
