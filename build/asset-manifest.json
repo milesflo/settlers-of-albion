@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a2c1fea.chunk.css",
+    "main.js": "/static/js/main.84318e6b.chunk.js",
+    "main.js.map": "/static/js/main.84318e6b.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.252ea49d.chunk.js": "/static/js/2.252ea49d.chunk.js",
+    "static/js/2.252ea49d.chunk.js.map": "/static/js/2.252ea49d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4385a2487f6faa306309676a059d361b.js": "/precache-manifest.4385a2487f6faa306309676a059d361b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6a2c1fea.chunk.css.map": "/static/css/main.6a2c1fea.chunk.css.map",
+    "static/media/anglo-village.jpg": "/static/media/anglo-village.f5dffaac.jpg"
+  }
+}
